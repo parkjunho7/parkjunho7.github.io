@@ -1,0 +1,74 @@
+* {
+  font-family: "Lora";
+}
+.container {
+  margin: 10 px;
+}
+
+#header-nav {
+  background-color: rgb(199, 196, 196);
+}
+
+.navbar-brand h1 {
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.75;
+}
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-toggle {
+  background-color: rgb(225, 228, 212);
+}
+
+#nav-list {
+  margin:0px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #e7e7e7;
+}
+#nav-list li {
+  border-bottom: 1px solid white;
+}
+
+div .div-title {
+  border: 1px solid #61122f;
+  text-align: center;
+  height: 350px;
+  overflow: scroll;
+  background-color: rgb(199, 196, 196);
+  margin-bottom: 30px;
+}
+div h2 {
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.div-title h3 {
+  font-weight: bold;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-sm-12 .div-title {
+    height: auto;
+  }
+}
+@media (max-width: 767px)  {
+    div .div-title {
+        border: 1px solid #61122f;
+        text-align: center;
+        height: fit-content;
+        
+
+      }
+  }
